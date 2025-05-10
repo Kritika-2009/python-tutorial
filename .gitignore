@@ -1,0 +1,8 @@
+build/
+node_modules/
+videos/
+npm-debug.log
+config.json
+.DS_Store
+.idea/
+*.env
