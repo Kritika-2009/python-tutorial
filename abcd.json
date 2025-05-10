@@ -1,0 +1,37 @@
+[{"schoolname": "kendriya vidyalay",
+    "Class": [
+        {
+            "name": "kritika",
+            "sec": "a",
+            "rollno": 10
+        },
+        {
+            "name": "kritika",
+            "sec": "a",
+            "rollno": 10
+        },
+        {
+            "name": "kritika",
+            "sec": "a",
+            "rollno": 10
+        }
+    ]
+}, {"schoolname": "kendriya vidyalay",
+"Class": [
+    {
+        "name": "kritika",
+        "sec": "a",
+        "rollno": 10
+    },
+    {
+        "name": "kritika",
+        "sec": "a",
+        "rollno": 10
+    },
+    {
+        "name": "kritika",
+        "sec": "a",
+        "rollno": 10
+    }
+]
+}]

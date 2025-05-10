@@ -1,0 +1,23 @@
+a = [1,2,3,4,5,6,7,8,9,0,10,100,234,35,10,5]
+print (a[4])
+a.append(234)
+print (a)
+a.insert(4,234)
+print(a)
+a.pop()
+print(a)
+a.pop(4)
+print(a)
+print(len(a))
+b = sum(a)
+print(b)
+print(100 in a)
+print(a.index(100))
+a.reverse()
+print(a)
+print (a.count(10))
+print(sum(a))
+if 100 in a:
+    print(a.index(10))
+else:
+    print("Not Found")
