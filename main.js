@@ -1,3 +1,3 @@
 console.log("asdf asdf adfs ");
 
-document.getElementsByClassName("krit")[0].style.backgroundColor = "khaki";
+document.getElementsByClassName("krit")[1].style.backgroundColor = "khaki";
