@@ -31,11 +31,18 @@ for matchNum, match in enumerate(matches, start=1):
 for op in arr:
 	match op:
 		case "+":
-			plus = arr.index(op)
-			add = int(lis[plus]) + int(lis[plus+1])
+                        try:
+                                
+                                plus = arr.index(op)
+                                add = int(lis[plus]) + int(lis[plus+1])
+                        except:
+                                print ("~")
 		case "-":
-			minus = arr.index(op)
-			sub = add - int(lis[minus+1])
+			try:
+                                minus = arr.index(op)
+                                sub = add - int(lis[minus+1])
+                        except:
+                                print("~")
 		case "*":
 			mult = arr.index(op)
 			prod = sub * int(lis[mult+1])
@@ -47,22 +54,6 @@ for op in arr:
 
 
 
-
-
-
-
-
-
-
-
-
-
-##			
-##			
-##				print (digi*digi)
-##			
-##				print (digi/digi)
-			
 
 
 
