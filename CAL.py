@@ -38,19 +38,23 @@ for op in arr:
     	    
 		case "-":
 			minus = arr.index(op)
-			sub = add - int(lis[minus+1])
+			try:
+				sub = add - int(lis[minus+1])
+			except:
+				sub = int(lis[minus]) - int(lis[minus+1])
+
 
 		case "*":
 			mult = arr.index(op)
-			prod = sub * int(lis[mult+1])
+			try:
+				prod = sub * int(lis[mult+1])
+			except:
+				prod = int(lis[mult]) * int(lis[mult+1])
+
+			
 		case "/":
 			div = arr.index(op)
-			print(prod / int(lis[div+1]))
-
-
-
-
-
-
-
-
+			try:
+				print(prod / int(lis[div+1]))
+			except:
+				print(int(lis[div]) / int(lis[div+1]))
