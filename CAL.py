@@ -2,7 +2,7 @@ import re
 
 lis = []
 arr = []
-test_str = input ()
+test_str = input()
 
 
 regex = r"\d+"
@@ -31,18 +31,15 @@ for matchNum, match in enumerate(matches, start=1):
 for op in arr:
 	match op:
 		case "+":
-                        try:
+			plus = arr.index(op)
+			add = int(lis[plus]) + int(lis[plus+1])
+                        
                                 
-                                plus = arr.index(op)
-                                add = int(lis[plus]) + int(lis[plus+1])
-                        except:
-                                print ("~")
+    	    
 		case "-":
-			try:
-                                minus = arr.index(op)
-                                sub = add - int(lis[minus+1])
-                        except:
-                                print("~")
+			minus = arr.index(op)
+			sub = add - int(lis[minus+1])
+
 		case "*":
 			mult = arr.index(op)
 			prod = sub * int(lis[mult+1])
